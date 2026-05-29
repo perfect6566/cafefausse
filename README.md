@@ -10,7 +10,7 @@ cafe/
 ├── frontend/                # React (Vite) single-page application
 │   └── public/images/menu/  # Dedicated image per menu item
 ├── scripts/                 # Utility scripts (menu image download)
-└── MSEE_Web_Application_and_Interface_Design_Cafe_Fausse_Images/
+
 ```
 
 ## Features
