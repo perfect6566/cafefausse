@@ -66,7 +66,7 @@ npm install
 npm run dev
 ```
 
-Frontend URL: `http://localhost:5173`
+Frontend URL: `http://localhost:5173` (also reachable externally via `http://<your-server-ip>:5173`)
 
 The Vite dev server proxies `/api/*` requests to Flask.
 
