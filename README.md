@@ -9,7 +9,6 @@ cafe/
 ├── backend/                 # Flask API + PostgreSQL integration
 ├── frontend/                # React (Vite) single-page application
 │   └── public/images/menu/  # Dedicated image per menu item
-├── scripts/                 # Utility scripts (menu image download)
 
 ```
 
