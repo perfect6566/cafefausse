@@ -15,21 +15,33 @@ export const IMAGES = {
   event: '/images/gallery-special-event.webp',
 }
 
+export const MENU_IMAGES = {
+  bruschetta: '/images/menu/bruschetta.jpg',
+  caesarSalad: '/images/menu/caesar-salad.jpg',
+  grilledSalmon: '/images/menu/grilled-salmon.jpg',
+  ribeyeSteak: '/images/menu/ribeye-steak.webp',
+  vegetableRisotto: '/images/menu/vegetable-risotto.jpg',
+  tiramisu: '/images/menu/tiramisu.jpg',
+  cheesecake: '/images/menu/cheesecake.jpg',
+  redWine: '/images/menu/red-wine.jpg',
+  whiteWine: '/images/menu/white-wine.jpg',
+  craftBeer: '/images/menu/craft-beer.jpg',
+  espresso: '/images/menu/espresso.jpg',
+}
+
 export const MENU = {
   starters: [
     {
       name: 'Bruschetta',
       description: 'Fresh tomatoes, basil, olive oil, and toasted baguette slices',
       price: 8.5,
-      image: IMAGES.event,
-      imagePosition: '50% 20%',
+      image: MENU_IMAGES.bruschetta,
     },
     {
       name: 'Caesar Salad',
       description: 'Crisp romaine with homemade Caesar dressing',
       price: 9.0,
-      image: IMAGES.interior,
-      imagePosition: '60% 40%',
+      image: MENU_IMAGES.caesarSalad,
     },
   ],
   mainCourses: [
@@ -37,22 +49,19 @@ export const MENU = {
       name: 'Grilled Salmon',
       description: 'Served with lemon butter sauce and seasonal vegetables',
       price: 22.0,
-      image: IMAGES.home,
-      imagePosition: '40% 55%',
+      image: MENU_IMAGES.grilledSalmon,
     },
     {
       name: 'Ribeye Steak',
       description: '12 oz prime cut with garlic mashed potatoes',
       price: 28.0,
-      image: IMAGES.ribeye,
-      imagePosition: 'center',
+      image: MENU_IMAGES.ribeyeSteak,
     },
     {
       name: 'Vegetable Risotto',
       description: 'Creamy Arborio rice with wild mushrooms',
       price: 18.0,
-      image: IMAGES.interior,
-      imagePosition: '30% 70%',
+      image: MENU_IMAGES.vegetableRisotto,
     },
   ],
   desserts: [
@@ -60,15 +69,13 @@ export const MENU = {
       name: 'Tiramisu',
       description: 'Classic Italian dessert with mascarpone',
       price: 7.5,
-      image: IMAGES.home,
-      imagePosition: '70% 30%',
+      image: MENU_IMAGES.tiramisu,
     },
     {
       name: 'Cheesecake',
       description: 'Creamy cheesecake with berry compote',
       price: 7.0,
-      image: IMAGES.event,
-      imagePosition: '55% 45%',
+      image: MENU_IMAGES.cheesecake,
     },
   ],
   beverages: [
@@ -76,29 +83,25 @@ export const MENU = {
       name: 'Red Wine (Glass)',
       description: 'A selection of Italian reds',
       price: 10.0,
-      image: IMAGES.event,
-      imagePosition: '45% 35%',
+      image: MENU_IMAGES.redWine,
     },
     {
       name: 'White Wine (Glass)',
       description: 'Crisp and refreshing',
       price: 9.0,
-      image: IMAGES.home,
-      imagePosition: '50% 60%',
+      image: MENU_IMAGES.whiteWine,
     },
     {
       name: 'Craft Beer',
       description: 'Local artisan brews',
       price: 6.0,
-      image: IMAGES.interior,
-      imagePosition: '80% 50%',
+      image: MENU_IMAGES.craftBeer,
     },
     {
       name: 'Espresso',
       description: 'Strong and aromatic',
       price: 3.0,
-      image: IMAGES.interior,
-      imagePosition: '20% 45%',
+      image: MENU_IMAGES.espresso,
     },
   ],
 }

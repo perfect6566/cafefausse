@@ -39,7 +39,6 @@ export default function Menu() {
                       <img
                         src={item.image}
                         alt={item.name}
-                        style={{ objectPosition: item.imagePosition }}
                         loading="lazy"
                       />
                       <div className="menu-item-image-overlay" aria-hidden="true" />
